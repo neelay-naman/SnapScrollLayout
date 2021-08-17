@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-snap-type: y mandatory;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    height: 100vh;
+    width: 100%;
+    scroll-snap-align: start;
+    background-color: rgb(36, 35, 35);
+    font-size: calc(5vh + 5vw);
+    font-weight: 900;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#pg1 {
+    color: red;
+}
+
+#pg2 {
+    color: blue;
+}
+
+#pg3 {
+    color: yellow;
+}
+
+#pg4 {
+    color: green;
+}
+
+#pg5 {
+    color: violet;
+}
